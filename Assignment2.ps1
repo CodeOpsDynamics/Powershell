@@ -6,7 +6,7 @@ $folder_name = Read-Host "Enter Folder Name"
 #used Folder in mentioned folder_name variable
 New-Item -Path /Users/himanshurai/Desktop/Powershell/$folder_name -ItemType Directory
 
-#provider file being created for specific cloud provider and required for using required features of same
+#provider file being created for specific cloud provider which is required for using mandatory features of same
 New-Item -Path /Users/himanshurai/Desktop/Powershell/$folder_name/provider.tf
 
 #main.tf file being created for terraform where all code will be written
