@@ -1,6 +1,6 @@
 #indexing starts from 0
-$salaries = 20,21,22,39,45,50
-$names = "abhay","abhishek","abhi","Himanshu Rai","rabhi","tabhi"
+$salaries = 20,21,22,39,45
+$names = "abhay","abhishek","abhi","rabhi","tabhi"
 
 #$index = 0
 # foreach ($Employee in $names) {
