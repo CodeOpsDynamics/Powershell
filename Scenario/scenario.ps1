@@ -7,6 +7,10 @@ Write-Host "====================================================================
 Write-Host "The type of variable is"
 #to get variable type
 $files.GetType()
+$connection_string = "DefaultEndpointsProtocol=https;AccountName=powershellstoragecont;AccountKey=CnN3m4igt2NH4kSa/vDHESB+W2vaBV4e2hgUkfNdYvVYcDojk/t82sbSwlRYR9KggawxjeZSNq5R+AStzBotLA==;EndpointSuffix=core.windows.net"
+$storage_account = "powershellstoragecont"
+$container_name = "powershell"
+
 Write-Host "=============================================================================="
 $date = Get-Date -Format "dd-MM-yyyy" 
 Write-Host "Today's Date is $date"
