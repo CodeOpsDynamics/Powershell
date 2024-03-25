@@ -1,0 +1,3 @@
+[2024-03-24 15:30:45] INFO [MyDatabase] [User123] [SELECT] [Query: SELECT * FROM Customers WHERE Country='USA']
+[2024-03-24 15:31:12] ERROR [MyDatabase] [Admin] [UPDATE] [Error updating table 'Orders': Duplicate key violation]
+[2024-03-24 15:32:05] DEBUG [MyDatabase] [User456] [INSERT] [Query: INSERT INTO Products (Name, Price) VALUES ('ProductXYZ', 29.99)]
