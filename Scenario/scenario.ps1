@@ -8,8 +8,6 @@ Write-Host "The type of variable is"
 #to get variable type
 $files.GetType()
 Write-Host "=============================================================================="
-$storage_account = "powershellstoragecont"
-$container_name = "powershell"
 $date = Get-Date -Format "dd-MM-yyyy" 
 Write-Host "Today's Date is $date"
 # $files[0]

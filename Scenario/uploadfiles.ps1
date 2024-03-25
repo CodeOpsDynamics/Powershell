@@ -13,7 +13,4 @@
 #     "Storage Table Data Reader"
 #az storage blob upload --account-name "powershellstoragecont" --container-name "powershell" --name "1.log" --file "/Users/himanshurai/Desktop/Powershell-3/Powershell/Scenario/1.log" --auth-mode login
 #variables being used:
-$storage_account = "powershellstoragecont"
-$container_name = "powershell"
-$date = "25thMarch2024" 
 az storage blob upload --account-name $storage_account --container-name $container_name --name "$date/2.log" --file "/Users/himanshurai/Desktop/Powershell-3/Powershell/Scenario/2.log" --connection-string $connection_string
