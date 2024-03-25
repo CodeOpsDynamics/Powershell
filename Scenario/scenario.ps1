@@ -14,7 +14,6 @@ $container_name = "powershell"
 $date = Get-Date -Format "dd-MM-yyyy" 
 Write-Host "Today's Date is $date"
 # $files[0]
-
 foreach ($file in $files) {
     Write-Host "=================================================================================="
     Write-Host "Uploading file $file....."
