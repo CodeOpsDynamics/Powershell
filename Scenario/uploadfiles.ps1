@@ -13,7 +13,6 @@
 #     "Storage Table Data Reader"
 #az storage blob upload --account-name "powershellstoragecont" --container-name "powershell" --name "1.log" --file "/Users/himanshurai/Desktop/Powershell-3/Powershell/Scenario/1.log" --auth-mode login
 #variables being used:
-#$connection_string = "DefaultEndpointsProtocol=https;AccountName=powershellstoragecont;AccountKey=CnN3m4igt2NH4kSa/vDHESB+W2vaBV4e2hgUkfNdYvVYcDojk/t82sbSwlRYR9KggawxjeZSNq5R+AStzBotLA==;EndpointSuffix=core.windows.net"
 $storage_account = "powershellstoragecont"
 $container_name = "powershell"
 $date = "25thMarch2024" 
