@@ -8,7 +8,7 @@ Write-Host "The type of variable is"
 #to get variable type
 $files.GetType()
 Write-Host "=============================================================================="
-$connection_string = "DefaultEndpointsProtocol=https;AccountName=powershellstoragecont;AccountKey=CnN3m4igt2NH4kSa/vDHESB+W2vaBV4e2hgUkfNdYvVYcDojk/t82sbSwlRYR9KggawxjeZSNq5R+AStzBotLA==;EndpointSuffix=core.windows.net"
+#$connection_string = "DefaultEndpointsProtocol=https;AccountName=powershellstoragecont;AccountKey=CnN3m4igt2NH4kSa/vDHESB+W2vaBV4e2hgUkfNdYvVYcDojk/t82sbSwlRYR9KggawxjeZSNq5R+AStzBotLA==;EndpointSuffix=core.windows.net"
 $storage_account = "powershellstoragecont"
 $container_name = "powershell"
 $date = Get-Date -Format "dd-MM-yyyy" 
